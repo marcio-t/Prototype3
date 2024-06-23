@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         playerRb = GetComponent<Rigidbody>();
         playerAnim = GetComponent<Animator>();
         playerAudio = GetComponent<AudioSource>();
@@ -46,7 +47,7 @@ public class PlayerController : MonoBehaviour
             dirtParticle.Play();
         }
         else if (collision.gameObject.CompareTag("Obstacle"))
-        {
+        { 
             gameOver = true;
             Debug.Log("Game Over!");
             playerAnim.SetBool("Death_b", true);
