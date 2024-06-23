@@ -547,8 +547,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1905360868441099078, guid: f8abbdd178867d2419ba9feb6ff2cba0,
         type: 3}
+      propertyPath: jumpForce
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905360868441099078, guid: f8abbdd178867d2419ba9feb6ff2cba0,
+        type: 3}
       propertyPath: isOnGround
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1905360868441099078, guid: f8abbdd178867d2419ba9feb6ff2cba0,
+        type: 3}
+      propertyPath: gravityModifier
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4207837830416114795, guid: f8abbdd178867d2419ba9feb6ff2cba0,
         type: 3}
@@ -579,6 +589,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.z
       value: -0.011408865
+      objectReference: {fileID: 0}
+    - target: {fileID: 5225318361345560813, guid: f8abbdd178867d2419ba9feb6ff2cba0,
+        type: 3}
+      propertyPath: m_Mass
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 5225318361345560813, guid: f8abbdd178867d2419ba9feb6ff2cba0,
         type: 3}
