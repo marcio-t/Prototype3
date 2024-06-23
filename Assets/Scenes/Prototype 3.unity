@@ -548,7 +548,7 @@ PrefabInstance:
     - target: {fileID: 1905360868441099078, guid: f8abbdd178867d2419ba9feb6ff2cba0,
         type: 3}
       propertyPath: isOnGround
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4207837830416114795, guid: f8abbdd178867d2419ba9feb6ff2cba0,
         type: 3}
